@@ -17,7 +17,7 @@ const ImageCarousel = ({ images }) => {
 
     return (
         <div className="relative">
-            <div className="w-full h-96 flex items-center justify-center overflow-hidden outline outline-2 rounded-2xl">
+            <div className="w-full h-96 flex items-center justify-center overflow-hidden outline outline-black rounded-2xl">
                 <img src={images[currentIndex]} alt={`Slide ${currentIndex}`} className="w-full h-full object-contain" />
             </div>
             {images.length > 1 && (

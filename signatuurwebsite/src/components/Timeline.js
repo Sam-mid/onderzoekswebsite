@@ -50,14 +50,6 @@ const Timeline = () => {
                 'De testpersonen dachten dat de app vooral bedoeld was voor informatie. Door de naam “WeetjeGezond” en de beschrijving onderaan de pagina.',
             ]
         },
-        {
-            date: 'Sprint 4',
-            title: 'MVP test',
-            doel: 'Het doel van deze test was om te controleren of de doelgroep die ik en het team voor ogen hadden wel bij het product past.',
-            description: 'Beschrijving van gebeurtenis 4',
-            imageUrl: 'public/img/Testplan1.jpg',
-            onderschrift: 'Testplan voor de MVP test.'
-        },
     ];
 
     return (
