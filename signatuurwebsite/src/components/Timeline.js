@@ -1,5 +1,6 @@
 import React from 'react';
 import TimelineItem from '../components/TinelineItem.js';
+import ImageCarouselSection from "./ImageCarouselSection";
 
 const Timeline = () => {
     const items = [
@@ -52,11 +53,11 @@ const Timeline = () => {
         },
     ];
 
+
     return (
         <div>
             <section id="Waarom" className="flex flex-col md:flex-col justify-center items-center bg-gray-100 h-screen md:min-h-auto">
-                <div className="mx-auto px-4 flex flex-wrap justify-center items-center md:space-x-8 md:flex-row md:items-center"
-                    style={{width: '100%', maxWidth: '100%'}}>
+                <div className="mx-auto px-4 flex flex-wrap justify-center items-center md:space-x-8 md:flex-row md:items-center" style={{width: '100%', maxWidth: '100%'}}>
                     <div className="w-full md:w-10/12 mb-4 md:mb-0 py-5">
                         <h2 className="text-xl font-bold mb-4">Waarom heb ik voor deze richting gekozen; Waar stond ik een half jaar geleden en wat wilde ik bereiken?</h2>
                         <p className="text-m mb-4">
@@ -72,8 +73,7 @@ const Timeline = () => {
                     </div>
                 </div>
 
-                <div
-                    className="mx-auto px-4 flex flex-wrap justify-center items-center md:space-x-8 md:flex-row md:items-center"
+                <div className="mx-auto px-4 flex flex-wrap justify-center items-center md:space-x-8 md:flex-row md:items-center"
                     style={{width: '100%', maxWidth: '100%'}}>
                     <div className="w-full md:w-10/12 mb-4 md:mb-0 py-5">
                         <h2 className="text-xl font-bold mb-4">Welk nachtkastboek heb ik gelezen? Aan welke informatie
@@ -100,8 +100,8 @@ const Timeline = () => {
                 </div>
             </section>
 
-
-            <div className="relative max-w-4xl mx-auto py-8">
+            <div className="relative max-w-4xl mx-auto py-8 mb-36">
+                <h2 className="text-3xl font-bold text-center mb-8">Onderzoeks tijdlijn</h2>
                 <div className="absolute w-1 bg-green-500 left-1/2 transform -translate-x-1/2 h-full"></div>
                 {items.map((item, index) => (
                     <TimelineItem
@@ -143,6 +143,12 @@ const Timeline = () => {
                             Ik probeer hier als onderzoekende technoloog ook extra bewust van te zijn.
                             Wat mij daarom kenmerkt als onderzoekende technoloog is: ik werk zo teamgericht mogelijk.
                             Ik erken het belang van het onderzoek voor de andere richtingen en zorg ervoor dat iedereen wat heeft aan de onderzoeken die ik opzet.
+                        </p>
+                        <br/>
+                        <p>
+                            Specialize me is er om erachter te komen wat je allemaal interesseert binnen de opleiding en Dit afgelopen half jaar heeft mijn doen realiseren hoe leuk en belangrijk onderzoeken kan zijn.
+                            En dat ik dit zeker een van de leukere onderdelen van het vak als creatief technoloog vind.
+                            Een aanbeveling die ik mijzelf wil meegeven is om dit niet te vergeten, en later op de opleiding tijdens mijn stage of minor mij verder te gaan verdiepen als onderzoeker.
                         </p>
                     </div>
                 </div>
